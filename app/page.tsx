@@ -1,8 +1,7 @@
 import Image from "next/image";
 import { useState } from 'react';
 
-import Form from './components/form';
-import Table from './components/table';
+import Calculator from "./components/calculator";
 
 interface FormData {
   weight: number;
@@ -17,8 +16,7 @@ interface FormData {
 export default function Home() {
   return (
     <main className="p-4 lg:flex lg:gap-16 xl:gap-24 min-h-screen bg-white items-center justify-center">
-      <Form />
-      <Table />
+      <Calculator />
     </main>
   );
 }

@@ -119,5 +119,9 @@ export function calculateDIN(
         }
     }
 
-    return Math.round(ans * 4) / 4
+    return {
+        result: Math.round(ans * 4) / 4,
+        skier: skier,
+        boot: boot,
+    };
 }
