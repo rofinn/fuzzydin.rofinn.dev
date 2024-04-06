@@ -40,7 +40,7 @@ export default function Form(props: Props) {
   };
 
   return (
-    <div className="m-4 lg:w-full lg:max-w-lg ">
+    <div className="m-4 lg:w-full lg:max-w-lg">
       <div className="text-gray-800 text-center text-6xl my-4 sm:my-4 md:my-8 lg:my-16">
         {formData.result > 0 ? formData.result : "0"}
       </div>

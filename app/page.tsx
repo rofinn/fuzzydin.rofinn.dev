@@ -15,7 +15,7 @@ interface FormData {
 
 export default function Home() {
   return (
-    <main className="p-4 lg:flex lg:gap-16 xl:gap-24 min-h-screen bg-white items-center justify-center">
+    <main className="py-4 lg:py-16 xl:py-24 min-h-screen bg-white">
       <Calculator />
     </main>
   );
