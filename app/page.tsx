@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { useState } from 'react';
+import { useState } from "react";
 
 import Calculator from "./components/calculator";
 
@@ -11,7 +11,7 @@ interface FormData {
   level: number;
   fuzz: boolean;
   result: number;
-};
+}
 
 export default function Home() {
   return (
